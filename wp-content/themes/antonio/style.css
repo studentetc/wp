@@ -1,3 +1,90 @@
-body {
-    
+h1 {
+    font-size: 58px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+textarea.input-lg {
+    height: 218px;
+}
+.jumbotron {
+    min-height: 650px;
+    padding-top: 10px;
+
+    background: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+.navbar-brand {
+    width: 180px;
+    height: 40px;
+
+    background: url(../images/brand.png) no-repeat;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #aaa;
+}
+
+.navbar-default .navbar-collapse {
+    padding-top: 4px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+/* form section */
+
+.form-row {
+    padding: 50px 15% 150px 15%;
+}
+
+.btn-container {
+    padding-top: 30px;
+}
+
+/* form section end */
+
+.welcome {
+    padding: 100px;
+
+    text-align: center;
+
+    color: rgba(256, 256, 256, .85);
+    background: rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 750px) {
+    .navbar-default .navbar-collapse {
+        border-color: transparent;
+        background-color: rgba(0, 0, 0, .2);
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 20px;
+        font-weight: 700;
+
+        text-align: center;
+
+        color: #fff;
+    }
 }
