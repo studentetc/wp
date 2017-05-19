@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="row">
     <div class="col-md-12 welcome">
-        <h1>Welcome to the course!</h1>
-        <h4>Here we will cover all the details about the course...</h4>
+        <h1><?php bloginfo(‘name’) ?></h1>
+        <h4><?php bloginfo(description) ?></h4>
     </div>
 </div>      </div>
     </div>
