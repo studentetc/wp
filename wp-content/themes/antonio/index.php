@@ -25,8 +25,6 @@
                 endif;
  ?>
 
-    
-    
 
   </div>
   <div class="row form-row">
