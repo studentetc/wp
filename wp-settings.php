@@ -14,6 +14,7 @@
  * @since 1.0.0
  */
 define( 'WPINC', 'wp-includes' );
+define( 'WPCF7_AUTOP', false );
 
 // Include files required for initialization.
 require( ABSPATH . WPINC . '/load.php' );
